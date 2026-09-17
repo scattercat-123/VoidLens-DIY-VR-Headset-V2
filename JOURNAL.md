@@ -6,6 +6,34 @@ created_at: "2026-05-25"
 recorded on: "lapse"
 ---
 
+# Lapse links:
+1. [timelapse 1](https://lapse.hackclub.com/timelapse/f4nqXqI7hFgT)
+2. [timelapse 2](https://lapse.hackclub.com/timelapse/ZiTtRccZcF3N)
+3. [timelapse 3](https://lapse.hackclub.com/timelapse/tBd1NlGmCGK5)
+4. [timelapse 4](https://lapse.hackclub.com/timelapse/1Spe0OPi6Aew)
+5. [timelapse 5](https://lapse.hackclub.com/timelapse/MBk84wRAZb63)
+6. [timelapse 6](https://lapse.hackclub.com/timelapse/x-GUhaDKMTN-)
+7. [timelapse 7](https://lapse.hackclub.com/timelapse/P3niAuyYuauM)
+8. [timelapse 8](https://lapse.hackclub.com/timelapse/Y5vxKxwnHvCM)
+9. [timelapse 9](https://lapse.hackclub.com/timelapse/PgElYlRu9ECy)
+10. [timelapse 10](https://lapse.hackclub.com/timelapse/5MBsstZw7_6_)
+11. [timelapse 11](https://lapse.hackclub.com/timelapse/7lh1uHg9Sn2O)
+12. [timelapse 12](https://lapse.hackclub.com/timelapse/GImigAxer_jY)
+13. [timelapse 13](https://lapse.hackclub.com/timelapse/eR_sAssruXn-)
+14. [timelapse 14](https://lapse.hackclub.com/timelapse/l-ILf5elXghu)
+15. [timelapse 15](https://lapse.hackclub.com/timelapse/xTZYCBQRbf5B)
+16. [timelapse 16](https://lapse.hackclub.com/timelapse/hWzH2CNydRFh)
+17. [timelapse 17](https://lapse.hackclub.com/timelapse/I-p3ttDsCrN4)
+18. [timelapse 18](https://lapse.hackclub.com/timelapse/k1ZjyCjhI7kP)
+19. [timelapse 19](https://lapse.hackclub.com/timelapse/nC5iGTKZUOrD)
+20. [timelapse 20](https://lapse.hackclub.com/timelapse/kcC0Xk2jgp6y)
+21. [timelapse 21](https://lapse.hackclub.com/timelapse/BEIWS6d7PA8m)
+22. [timelapse 22](https://lapse.hackclub.com/timelapse/wSm2DOGiso9h)
+23. [timelapse 23](https://lapse.hackclub.com/timelapse/V_IC8thnmYoU)
+24. [timelapse 24](https://lapse.hackclub.com/timelapse/4xQbPmBbQ0yg)
+25. [timelapse 25](https://lapse.hackclub.com/timelapse/tivtx0-DEwzT)
+26. [timelapse 26](https://lapse.hackclub.com/timelapse/FEBmBDJxXnag)
+
 # May 25th: Made Basic CAD and researched about design!
 
 So Basically my older Voidlens VR Headset I made for Highway was pretty good but the design wasnt bad or modular, it could only fit my shape and pcb had many errors i dint consider, now that i have all the parts im doing a redesign and make it look cool so that anyon in the world can mak their own vr headset for free and DIY. Today, I made the lens holders proper because my last design had many defect such as the lens was protuded out a bit which is bad and there were clips holding in plae instead of a press fit whcih now makes it repairable instead of like a permanent thing. I also added Adjustable like focal length thingy so that i can adjust it to my comfort instead of doing trial and error until it fits, it also anbles other people to lik etry other diameter/focal lenses. Secondly i made it look less boxier and ugly like the old one add added like hidden screw stuff im still working on it though. You can check it out below!
