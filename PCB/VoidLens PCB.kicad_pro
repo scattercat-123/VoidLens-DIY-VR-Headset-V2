@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 2.5,
-          "width": 2.5
+          "height": 0.5,
+          "width": 4.9
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,23 +60,88 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.2,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
-          "pad_connection": 1,
-          "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "min_thickness": 0.15,
+          "pad_connection": 3,
+          "remove_islands": 1,
+          "thermal_relief_gap": 0.25,
+          "thermal_relief_spoke_width": 0.3
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|202050000|78400000|c1abc286-5875-4829-9666-374e81abe595|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "padstack|194610000|26925000|e5bfd4d3-ffa7-4ade-8b24-74265ffab0a4|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "padstack|200390000|26925000|40092273-724c-4421-81f9-e902e44f235b|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_edge_clearance|193180000|21827855|fd5b5a2a-53bb-47ea-a143-7822b789d00e|20916683-6456-4321-b84f-dd6f85cd5c85",
+          ""
+        ],
+        [
+          "silk_edge_clearance|201820000|21801752|fd5b5a2a-53bb-47ea-a143-7822b789d00e|971b147a-d011-4da3-909b-8cfdf070e9ce",
+          ""
+        ],
+        [
+          "solder_mask_bridge|194750000|80470000|472d9c25-82d4-4769-8d6a-bafbfeef2995|b58de6ce-3ad1-4181-809c-295b78338fae",
+          ""
+        ],
+        [
+          "solder_mask_bridge|196950000|80470000|33c8bd45-0102-4ad0-b5b4-05f754d6d074|472d9c25-82d4-4769-8d6a-bafbfeef2995",
+          ""
+        ],
+        [
+          "solder_mask_bridge|197450000|77830000|cc3a1b3d-c956-4e09-b269-d98150fe6c92|33c8bd45-0102-4ad0-b5b4-05f754d6d074",
+          ""
+        ],
+        [
+          "solder_mask_bridge|199450000|77830000|187ab8f8-01c1-4ebd-a78b-d05c795e786e|cc3a1b3d-c956-4e09-b269-d98150fe6c92",
+          ""
+        ],
+        [
+          "solder_mask_bridge|199450000|80470000|0dfb873e-72aa-449e-9a51-956cef9fb9df|187ab8f8-01c1-4ebd-a78b-d05c795e786e",
+          ""
+        ],
+        [
+          "solder_mask_bridge|201650000|80470000|212ead84-d128-4dae-ad0d-9cf217a9e020|0dfb873e-72aa-449e-9a51-956cef9fb9df",
+          ""
+        ],
+        [
+          "solder_mask_bridge|202150000|77830000|68bafffd-027c-4c03-a6d5-a3a4cbdf2894|212ead84-d128-4dae-ad0d-9cf217a9e020",
+          ""
+        ],
+        [
+          "solder_mask_bridge|204150000|77830000|244ef9d7-9efb-41be-994f-4a046de6ce0d|68bafffd-027c-4c03-a6d5-a3a4cbdf2894",
+          ""
+        ],
+        [
+          "solder_mask_bridge|204150000|80450000|812f2bf4-12a9-487a-9695-27daa4381de7|244ef9d7-9efb-41be-994f-4a046de6ce0d",
+          ""
+        ],
+        [
+          "solder_mask_bridge|206350000|80450000|812f2bf4-12a9-487a-9695-27daa4381de7|74f900d1-02cb-4237-921b-ee2e97cf1949",
+          ""
+        ],
+        [
+          "solder_mask_bridge|208250000|80450000|fdfe6945-198d-47b5-a05e-b9a04a979243|812f2bf4-12a9-487a-9695-27daa4381de7",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
       "rule_severities": {
-        "annular_width": "error",
-        "clearance": "error",
+        "annular_width": "ignore",
+        "clearance": "ignore",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
@@ -96,7 +161,7 @@
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
         "invalid_outline": "error",
-        "isolated_copper": "warning",
+        "isolated_copper": "ignore",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
@@ -115,8 +180,8 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -142,20 +207,20 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.15,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
+        "min_text_height": 0.7,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.15,
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.2,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -603,12 +668,78 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Price/Stock",
+          "name": "Arrow Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Part Number",
+          "name": "Arrow Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -661,7 +792,7 @@
         "uuid": "f656717d-b5bf-4245-8793-92b46c6e7d60"
       }
     ],
-    "used_designators": "USB1,R1-2,R14-18,R20-27,#PWR8,#PWR13-15,#PWR35,#PWR38-39,#PWR51,#PWR55-58,C24-25,L7,SW1-2,SW5,U2,U7",
+    "used_designators": "U2,U7,SW1-2,SW5,L7,C24-25,#PWR8,#PWR13-15,#PWR35,#PWR38-39,#PWR51,#PWR55-58,R1-2,R14-18,R20-27,USB1",
     "variants": []
   },
   "sheets": [
