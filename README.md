@@ -27,3 +27,5 @@ SteamVR can be installed on the pc and the documentation is availble here - http
 ## Credits:
 https://github.com/HadesVR/HadesVR - HadesVR Inspired me to make this in the first place
 Thanks for the horizons team for organizing horizons europa which gave me the motivation to finish this.
+
+I have also used a bit of ai(google's search engine) and some claude to help me finish the BOM file faster instead of doing manually and help me understand some pcb design concepts.
