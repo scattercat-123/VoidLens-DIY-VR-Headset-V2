@@ -1,6 +1,9 @@
 # VoidLens-DIY-VR-Headset
 
-image
+<img width="946" height="625" alt="image" src="https://github.com/user-attachments/assets/85cd04bd-b409-480d-83cd-2ccd00e51d5e" />
+
+<img width="973" height="682" alt="image" src="https://github.com/user-attachments/assets/9b3f8b5c-9b3b-42b7-abca-60665df0586e" />
+
 
 ## What is special in this?
  - A highly customizable VR Headset
