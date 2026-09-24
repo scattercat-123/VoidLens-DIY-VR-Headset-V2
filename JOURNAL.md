@@ -34,6 +34,7 @@ recorded on: "lapse"
 25. [timelapse 25](https://lapse.hackclub.com/timelapse/tivtx0-DEwzT)
 26. [timelapse 26](https://lapse.hackclub.com/timelapse/FEBmBDJxXnag)
 27. [timelapse 27](https://lapse.hackclub.com/timelapse/XHdpOhmHMYGX)
+28. [timelapse 28](https://lapse.hackclub.com/timelapse/qVaKonp_3JMT)
 
 # May 25th: Made Basic CAD and researched about design!
 
@@ -202,6 +203,6 @@ I had to redo many thing if the routing didnt wokred i also repositioned the pcb
 # September 17th: Completing submission requirements
 
 I finally finsished designing, is 2 AM and i hope its approved, 40+ long hours of work finally paid off.
+Also journaled all the log entries and also added the bom. cad, gerber etc to the repo.
 
-I firstly made the journal with all the log entries and also added the bom. cad, gerber etc to the repo.
-
+# September 24th: Added connection diagram to repo
