@@ -6,8 +6,9 @@
   <img width="400" alt="VoidLens Headset Angle 2" src="https://github.com/user-attachments/assets/9b3f8b5c-9b3b-42b7-abca-60665df0586e" />
 </p>
 
-## PCB Schematic
+## Schematic and Connection Diagram
 <img width="800" alt="PCB Schematic PDF-1" src="https://github.com/user-attachments/assets/3ae9fe96-4f1f-4061-b94b-828df1d9ea9a" />
+<img width="800" alt="Connection_Diagram" src="https://github.com/user-attachments/assets/f4321d6a-c037-4752-9053-4cefd6df5517" />
 
 ## Hardware Details & Assembly
 <p float="left">
